@@ -11,7 +11,7 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 @app.route(route="http_trigger_tuss")
 def http_trigger_tuss(req: func.HttpRequest) -> func.HttpResponse:
     
-    logging.info("--- INICIANDO PIPELINE MONOLÍTICO (SEM FUNÇÕES EXTRAS) ---")
+    logging.info("--- INICIANDO ---")
 
     try:
         # ---------------------------------------------------------
