@@ -1,0 +1,14 @@
+# Uncomment to enable Azure Monitor OpenTelemetry
+# Ref: aka.ms/functions-azure-monitor-python
+# azure-monitor-opentelemetry
+
+# isso de por o nome da versão é o pip freeze, ele vai mostrar o que foi baixado e a versão dela
+
+azure-functions==1.23.0
+azure-identity==1.16.0
+azure-storage-blob==12.20.0
+fastexcel==0.16.0
+openpyxl==3.1.5
+polars==1.34.0
+pyarrow==21.0.0
+deltalake==1.2.1
